@@ -13,7 +13,7 @@ import TableCell from '@material-ui/core/TableCell'
 import Card from '@material-ui/core/Card'
 import classNames from 'classnames'
 import TimeAgo from '@chainlink/styleguide/components/TimeAgo'
-import { IJobRuns } from '../../../@types/operator_ui'
+import { IJobRun, IJobRuns } from '../../../@types/operator_ui'
 import titleize from '../../utils/titleize'
 import BaseLink from '../BaseLink'
 import Link from '../Link'
@@ -69,7 +69,7 @@ const styles = ({ palette, spacing }: Theme) =>
     }
   })
 
-const classFromStatus = (classes, status) => {
+const classFromStatus = (classes: any, status: any) => {
   if (
     !status ||
     status.startsWith('pending') ||
@@ -80,7 +80,7 @@ const classFromStatus = (classes, status) => {
   return classes[status.toLowerCase()]
 }
 
-const renderRuns = (runs: IJobRuns, classes) => {
+const renderRuns = (runs: IJobRuns, classes: any) => {
   if (runs && runs.length === 0) {
     return (
       <TableRow>
@@ -96,7 +96,7 @@ const renderRuns = (runs: IJobRuns, classes) => {
       </TableRow>
     )
   } else if (runs) {
-    return runs.map(r => (
+    return runs.map((r: IJobRun) => (
       <TableRow key={r.id}>
         <TableCell className={classes.idCell} scope="row">
           <div className={classes.runDetails}>

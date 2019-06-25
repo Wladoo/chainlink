@@ -8,6 +8,7 @@ import CardTitle from '@chainlink/styleguide/components/Cards/Title'
 import JobRunsList from '../../components/JobRuns/List'
 import Content from '../../components/Content'
 import RegionalNav from '../../components/Jobs/RegionalNav'
+import { JobSpecRunsOpts } from '../../api'
 import { fetchJob, fetchJobRuns } from '../../actions'
 import jobSelector from '../../selectors/job'
 import jobRunsByJobIdSelector from '../../selectors/jobRunsByJobId'
@@ -92,16 +93,8 @@ interface IProps {
   recentRuns: IJobRuns
   recentRunsCount: number
   showJobRunsCount: number
-  fetchJob: (string) => Promise<any>
-  fetchJobRuns: ({
-    jobSpecId,
-    page,
-    size
-  }: {
-    jobSpecId: string
-    page: number
-    size: number
-  }) => Promise<any>
+  fetchJob: (id: string) => Promise<any>
+  fetchJobRuns: (opts: JobSpecRunsOpts) => Promise<any>
 }
 
 const DEFAULT_PAGE = 1
@@ -142,7 +135,7 @@ export const Show = useHooks(
   }
 )
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state: any, ownProps: any) => {
   const jobSpecId = ownProps.match.params.jobSpecId
   const job = jobSelector(state, jobSpecId)
   const recentRuns = jobRunsByJobIdSelector(

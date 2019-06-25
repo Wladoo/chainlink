@@ -20,7 +20,46 @@ import BaseLink from '../BaseLink'
 import Link from '../Link'
 import StatusIcon from '../JobRuns/StatusIcon'
 import NoContentLogo from '../Logos/NoContent'
-import { IJobRuns } from '../../../@types/operator_ui'
+import { IJobRun, IJobRuns } from '../../../@types/operator_ui'
+
+const noActivityStyles = ({ palette, spacing }: Theme) =>
+  createStyles({
+    noActivity: {
+      backgroundColor: palette.primary.light,
+      padding: spacing.unit * 3
+    }
+  })
+
+interface INoActivityProps extends WithStyles<typeof noActivityStyles> {}
+
+const NoActivity = withStyles(noActivityStyles)(
+  ({ classes }: INoActivityProps) => (
+    <CardContent>
+      <Card elevation={0} className={classes.noActivity}>
+        <Grid container alignItems="center" spacing={16}>
+          <Grid item>
+            <NoContentLogo width={40} />
+          </Grid>
+          <Grid item>
+            <Typography variant="body1" color="textPrimary" inline>
+              No recent activity
+            </Typography>
+          </Grid>
+        </Grid>
+      </Card>
+    </CardContent>
+  )
+)
+
+const Fetching = () => {
+  return (
+    <CardContent>
+      <Typography variant="body1" color="textSecondary">
+        Loading ...
+      </Typography>
+    </CardContent>
+  )
+}
 
 const styles = ({ palette, spacing }: Theme) =>
   createStyles({
@@ -56,55 +95,27 @@ const styles = ({ palette, spacing }: Theme) =>
       paddingBottom: spacing.unit * 3,
       paddingLeft: spacing.unit * 4,
       paddingRight: spacing.unit * 4
-    },
-    noActivity: {
-      backgroundColor: palette.primary.light,
-      padding: spacing.unit * 3
     }
   })
 
-const NoActivity = ({ classes }) => (
-  <CardContent>
-    <Card elevation={0} className={classes.noActivity}>
-      <Grid container alignItems="center" spacing={16}>
-        <Grid item>
-          <NoContentLogo width={40} />
-        </Grid>
-        <Grid item>
-          <Typography variant="body1" color="textPrimary" inline>
-            No recent activity
-          </Typography>
-        </Grid>
-      </Grid>
-    </Card>
-  </CardContent>
-)
-
 interface IProps extends WithStyles<typeof styles> {
   pageSize: number
-  runs?: IJobRuns[]
+  runs?: IJobRuns
   count?: number
 }
 
 const Activity = ({ classes, runs, count, pageSize }: IProps) => {
-  const loading = !runs
   let activity
 
-  if (loading) {
-    activity = (
-      <CardContent>
-        <Typography variant="body1" color="textSecondary">
-          Loading ...
-        </Typography>
-      </CardContent>
-    )
+  if (!runs) {
+    activity = <Fetching />
   } else if (runs.length === 0) {
-    activity = <NoActivity classes={classes} />
+    activity = <NoActivity />
   } else {
     activity = (
       <Table>
         <TableBody>
-          {runs.map(r => (
+          {runs.map((r: IJobRun) => (
             <TableRow key={r.id}>
               <TableCell scope="row" className={classes.cell}>
                 <div className={classes.content}>
@@ -147,13 +158,13 @@ const Activity = ({ classes, runs, count, pageSize }: IProps) => {
             </TableRow>
           ))}
         </TableBody>
-        {count > pageSize && (
+        {count && count > pageSize && (
           <TableFooter>
             <TableRow>
               <TableCell scope="row" className={classes.footer}>
-                <Button to={`/runs`} component={BaseLink}>
-                  View More
-                </Button>
+                <Button
+                  component={() => <BaseLink to={'/runs'}>View More</BaseLink>}
+                />
               </TableCell>
             </TableRow>
           </TableFooter>
@@ -172,9 +183,9 @@ const Activity = ({ classes, runs, count, pageSize }: IProps) => {
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4} align="right">
-            <Button component={BaseLink} to={'/jobs/new'}>
-              New Job
-            </Button>
+            <Button
+              component={() => <BaseLink to={'/jobs/new'}>New Job</BaseLink>}
+            />
           </Grid>
         </Grid>
       </CardContent>

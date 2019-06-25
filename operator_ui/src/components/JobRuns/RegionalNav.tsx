@@ -56,7 +56,7 @@ interface INavItemProps extends WithStyles<typeof navItemStyles> {
 
 const NavItem = withStyles(navItemStyles)(
   ({ children, to, classes, error }: INavItemProps) => {
-    const pathname = global.document ? global.document.location.pathname : ''
+    const pathname = document ? document.location.pathname : ''
     const active = pathname === to
     const linkClasses = classNames(
       classes.link,

@@ -1,12 +1,16 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { withStyles } from '@material-ui/core/styles'
+import {
+  createStyles,
+  Theme,
+  withStyles,
+  WithStyles
+} from '@material-ui/core/styles'
 import MuiButton from '@material-ui/core/Button'
 import pick from 'lodash/pick'
 import classNames from 'classnames'
 
-const styles = theme => {
-  return {
+const styles = (theme: Theme) =>
+  createStyles({
     default: {
       borderColor: '#BECAD6',
       '&:hover': {
@@ -44,8 +48,7 @@ const styles = theme => {
     defaultRipple: {
       color: '#818EA3'
     }
-  }
-}
+  })
 
 const PROPS_WHITELIST = ['component', 'disabled', 'onClick', 'type', 'to']
 const DEFAULT = 'default'
@@ -68,7 +71,7 @@ const DEFAULT_MUI_PROPS = {
   color: 'secondary'
 }
 
-const buildMuiProps = props => {
+const buildMuiProps = (props: any) => {
   switch (props.variant) {
     case PRIMARY:
       return PRIMARY_MUI_PROPS
@@ -88,24 +91,36 @@ const buildMuiProps = props => {
   }
 }
 
-const Button = props => {
+export type ButtonVariant =
+  | 'text'
+  | 'flat'
+  | 'outlined'
+  | 'contained'
+  | 'raised'
+  | 'fab'
+  | 'extendedFab'
+
+interface IProps extends WithStyles<typeof styles> {
+  children?: React.ReactNode
+  className?: string
+  variant?: ButtonVariant
+  component?: React.ReactNode
+}
+
+const Button = (props: IProps) => {
   const wprops = pick(props, PROPS_WHITELIST)
   const muiProps = Object.assign({}, wprops, buildMuiProps(props))
-  const className = classNames(props.classes[props.variant], props.className)
+  const variant = props.variant || DEFAULT
+  const className = classNames(
+    props.classes[variant as keyof typeof props.classes],
+    props.className
+  )
 
   return (
     <MuiButton {...muiProps} className={className}>
       {props.children}
     </MuiButton>
   )
-}
-
-Button.propTypes = {
-  variant: PropTypes.oneOf(VARIANTS)
-}
-
-Button.defaultProps = {
-  variant: DEFAULT
 }
 
 export default withStyles(styles)(Button)

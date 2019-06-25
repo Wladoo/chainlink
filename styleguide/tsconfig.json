@@ -14,11 +14,7 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": [
-    "src/**/*"
-  ],
   "files": [
-    "@types/redux-object.d.ts",
-    "@types/use-react-hooks.d.ts"
+    "@types/react-time-ago.d.ts"
   ]
 }

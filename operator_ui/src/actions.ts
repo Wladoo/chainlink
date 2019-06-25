@@ -309,46 +309,48 @@ const normalizeFetchJob = json => {
 }
 
 export const fetchAccountBalance = () =>
-  request('ACCOUNT_BALANCE', api.getAccountBalance, json => normalize(json))
+  request('ACCOUNT_BALANCE', api.getAccountBalance, (json: any) =>
+    normalize(json)
+  )
 
-export const fetchJobs = (page, size) =>
+export const fetchJobs = (page: number, size: number) =>
   request(
     'JOBS',
     api.getJobs,
-    json => normalize(json, { endpoint: 'currentPageJobs' }),
+    (json: any) => normalize(json, { endpoint: 'currentPageJobs' }),
     page,
     size
   )
 
-export const fetchRecentlyCreatedJobs = size =>
+export const fetchRecentlyCreatedJobs = (size: number) =>
   request(
     'RECENTLY_CREATED_JOBS',
     api.getRecentlyCreatedJobs,
-    json => normalize(json, { endpoint: 'recentlyCreatedJobs' }),
+    (json: any) => normalize(json, { endpoint: 'recentlyCreatedJobs' }),
     size
   )
 
-export const fetchJob = id =>
-  request('JOB', api.getJobSpec, json => normalizeFetchJob(json), id)
+export const fetchJob = (id: string) =>
+  request('JOB', api.getJobSpec, (json: any) => normalizeFetchJob(json), id)
 
 export const fetchJobRuns = (opts: api.JobSpecRunsOpts) =>
   request(
     'JOB_RUNS',
     api.getJobSpecRuns,
-    json => normalize(json, { endpoint: 'currentPageJobRuns' }),
+    (json: any) => normalize(json, { endpoint: 'currentPageJobRuns' }),
     opts
   )
 
-export const fetchRecentJobRuns = size =>
+export const fetchRecentJobRuns = (size: number) =>
   request(
     'RECENT_JOB_RUNS',
     api.getRecentJobRuns,
-    json => normalize(json, { endpoint: 'recentJobRuns' }),
+    (json: any) => normalize(json, { endpoint: 'recentJobRuns' }),
     size
   )
 
-export const fetchJobRun = id =>
-  request('JOB_RUN', api.getJobSpecRun, json => normalize(json), id)
+export const fetchJobRun = (id: string) =>
+  request('JOB_RUN', api.getJobSpecRun, (json: any) => normalize(json), id)
 
 export const deleteCompletedJobRuns = updatedBefore =>
   request(

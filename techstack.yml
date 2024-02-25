@@ -1,0 +1,2005 @@
+repo_name: Wladoo/chainlink
+report_id: 93d8985271b16ffc5219d71b6ee62862
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T10:26:59+00:00'
+requested_by: rupurt
+provider: github
+branch: develop
+detected_tools_count: 145
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/examples/echo_server/package.json
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-04-04 17:28:24.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: WebAssembly
+  description: A binary instruction format for a stack-based virtual machine
+  website_url: https://webassembly.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/9269/New_Project__76_.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-04-04 17:28:24.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/package.json
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-20 19:13:44.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: John Barker
+  last_updated_on: 2018-06-19 19:44:01.000000000 Z
+- name: Prototype
+  description: Prototype JavaScript framework
+  website_url: http://prototypejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/3597/o_bigger_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/operator_ui/package.json
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: React Hot Loader
+  description: Tweak React components in real time
+  website_url: http://gaearon.github.io/react-hot-loader/
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 21:45:23.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 3.7.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-06 23:16:26.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 4.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: TypeORM
+  description: An ORM that can run in NodeJS and others
+  website_url: https://typeorm.io/
+  version: 0.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7419/20165699.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-22 17:20:55.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/package.json
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-06 23:16:26.000000000 Z
+- name: Ethereum
+  description: Open source platform to write and distribute decentralized applications
+  website_url: https://ethereum.org
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Blockchain
+  image_url: https://img.stackshare.io/service/1634/default_dacdb57c0b4f9d422e4a23aed8b9bbf7a6024fed.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/examples/echo_server/package.json
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2018-05-19 14:34:14.000000000 Z
+- name: GORM
+  description: The fantastic ORM library for Golang
+  website_url: https://gorm.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5194/default_c656a82cbf499a944563022a13ebbd62c9f3aa4b.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/Gopkg.toml
+  detection_source: Gopkg.toml
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2017-11-24 17:06:25.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/package.json
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-22 17:20:55.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/package.json
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-22 17:20:55.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: John Barker
+  last_updated_on: 2019-06-25 21:09:48.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-02-20 02:18:08.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-28 17:51:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/Gopkg.toml
+  detection_source: Gopkg.toml
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2017-11-24 17:06:25.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-04-01 22:43:59.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 1.16.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/package.json
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-23 18:28:10.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/examples/echo_server/package.json
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-04-04 17:28:24.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-23 18:28:10.000000000 Z
+- name: TRUFFLE
+  description: A development environment for Ethereum
+  website_url: https://www.trufflesuite.com/truffle
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/8417/gMnhPuhq_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/evm/box/package.json
+  detection_source: evm/box/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2019-05-11 17:35:31.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/Gopkg.toml
+  detection_source: Gopkg.toml
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2017-11-24 17:06:25.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/sgx/bigdecimal-rs/.travis.yml
+  detection_source: sgx/bigdecimal-rs/.travis.yml
+  last_updated_by: John Barker
+  last_updated_on: 2018-11-13 22:47:18.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.28.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: styleguide/webpack.config.js
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2018-11-29 01:25:41.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/yarn.lock
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/styleguide/package.json
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: Twilio
+  description: Bring voice and messaging to your web and mobile applications.
+  website_url: http://www.twilio.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Voice and SMS
+  image_url: https://img.stackshare.io/service/130/VrwpNfjh_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/examples/twilio_sms/package.json
+  detection_source: examples/twilio_sms/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-26 15:28:00.000000000 Z
+- name: Formik
+  description: Build forms in React
+  website_url: https://jaredpalmer.com/formik/
+  version: 1.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Web Forms
+  image_url: https://img.stackshare.io/service/8846/preview.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-05-15 22:05:22.000000000 Z
+- name: React-Static
+  description: A progressive static-site framework for React
+  website_url: https://github.com/nozzle/react-static
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/7731/default_ef521328d20bbfa4bc95ebbd2c81e67a729c021b.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/operator_ui/package.json
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 21:45:23.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/package.json
+  detection_source: explorer/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-05-02 23:20:50.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: solidity
+  description: How people build software
+  website_url: https://ethereum.github.io/solidity/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4959/1__IS8pZzkhvd6kUbSFpSgag.png
+  detection_source_url: https://github.com/Wladoo/chainlink
+  detection_source: Repo Metadata
+- name: web3
+  website_url: https://github.com/ethereum/web3.js/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8418/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/examples/echo_server/package.json
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-05-19 23:01:34.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-31 22:32:02.000000000 Z
+- name: "@babel/plugin-proposal-export-namespace-from"
+  description: Compile export namespace to ES2015
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-export-namespace-from
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16312/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/plugin-proposal-throw-expressions"
+  description: Wraps Throw Expressions in an IIFE
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-throw-expressions
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16489/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/polyfill"
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/@babel/polyfill
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16039/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/preset-stage-2"
+  description: Babel preset for stage 2 plugins
+  package_url: https://www.npmjs.com/@babel/preset-stage-2
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17615/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-17 21:07:44.000000000 Z
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 3.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-20 19:13:44.000000000 Z
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-20 19:13:44.000000000 Z
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 4.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 4.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 4.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 4.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: styleguide/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-24 00:00:13.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  version: 2.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-17 21:07:44.000000000 Z
+- name: "@types/enzyme"
+  description: TypeScript definitions for Enzyme
+  package_url: https://www.npmjs.com/@types/enzyme
+  version: 3.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-05 19:14:17.000000000 Z
+- name: "@types/enzyme-adapter-react-16"
+  description: TypeScript definitions for enzyme-adapter-react-16
+  package_url: https://www.npmjs.com/@types/enzyme-adapter-react-16
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16638/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 24.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-05 19:14:17.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 5.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-16 18:04:21.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 11.11.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: "@types/puppeteer"
+  description: TypeScript definitions for puppeteer
+  package_url: https://www.npmjs.com/@types/puppeteer
+  version: 1.12.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16766/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-06 23:16:26.000000000 Z
+- name: "@types/supertest"
+  description: TypeScript definitions for SuperTest
+  package_url: https://www.npmjs.com/@types/supertest
+  version: 2.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16805/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: NavyAdmiral
+  last_updated_on: 2019-06-16 22:14:34.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 3.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 12.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 1.6.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-31 22:32:02.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: NavyAdmiral
+  last_updated_on: 2019-05-27 19:28:46.000000000 Z
+- name: bignumber.js
+  description: A library for arbitrary-precision decimal and non-decimal arithmetic
+  package_url: https://www.npmjs.com/bignumber.js
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16433/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: examples/uptime_sla/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-02-13 21:58:51.000000000 Z
+- name: bn.js
+  description: Big number implementation in pure javascript
+  package_url: https://www.npmjs.com/bn.js
+  version: 4.11.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16585/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: examples/uptime_sla/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-02-07 01:35:36.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.18.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:07:30.000000000 Z
+- name: change-case
+  description: Transform a string between `camelCase`
+  package_url: https://www.npmjs.com/change-case
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16612/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-04 03:38:42.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-17 21:07:44.000000000 Z
+- name: compression-webpack-plugin
+  description: Prepare compressed versions of assets to serve them with Content-Encoding
+  package_url: https://www.npmjs.com/compression-webpack-plugin
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16347/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-21 16:42:54.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-23 18:28:10.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-04-01 22:43:59.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: NavyAdmiral
+  last_updated_on: 2019-05-27 19:28:46.000000000 Z
+- name: enzyme-adapter-react-16
+  description: JavaScript Testing utilities for React
+  package_url: https://www.npmjs.com/enzyme-adapter-react-16
+  version: 1.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15959/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 4.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-23 18:28:10.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-03-14 21:24:25.000000000 Z
+- name: ethereumjs-tx
+  description: A simple module for creating
+  package_url: https://www.npmjs.com/ethereumjs-tx
+  version: 1.3.7
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17320/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-29 02:25:17.000000000 Z
+- name: ethereumjs-util
+  description: A collection of utility functions for Ethereum
+  package_url: https://www.npmjs.com/ethereumjs-util
+  version: 5.2.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16835/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2018-05-19 14:34:14.000000000 Z
+- name: ethereumjs-wallet
+  description: Utilities for handling Ethereum keys
+  package_url: https://www.npmjs.com/ethereumjs-wallet
+  version: 0.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18246/default_42444f560291e764861faaf607f48484f4d14cba.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-29 02:25:17.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-04-04 17:28:24.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: fetch-mock
+  description: Mock http requests made using fetch
+  package_url: https://www.npmjs.com/fetch-mock
+  version: 7.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16762/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:06:10.000000000 Z
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: examples/uptime_sla/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-04-04 17:49:59.000000000 Z
+- name: humps
+  description: Underscore-to-camelCase converter
+  package_url: https://www.npmjs.com/humps
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18430/default_f6f0590858b32ae7c8b1cfa52e30caaf3c7dfe98.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: jest-environment-enzyme
+  description: Runtime Environment for enzyme tests in jest
+  package_url: https://www.npmjs.com/jest-environment-enzyme
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18394/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: integration/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:39:58.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-29 20:36:48.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.24.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-05-15 22:05:22.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: normalize-url
+  description: Normalize a URL
+  package_url: https://www.npmjs.com/normalize-url
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17765/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: numeral
+  description: Format and manipulate numbers
+  package_url: https://www.npmjs.com/numeral
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: openzeppelin-solidity
+  description: Secure Smart Contract library for Solidity
+  package_url: https://www.npmjs.com/openzeppelin-solidity
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18068/image.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: evm/box/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2019-05-11 17:35:31.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 7.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-22 17:20:55.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-25 04:51:10.000000000 Z
+- name: react-copy-to-clipboard
+  description: Copy-to-clipboard React component
+  package_url: https://www.npmjs.com/react-copy-to-clipboard
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17254/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 21:45:23.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-04-08 20:09:56.000000000 Z
+- name: react-jss
+  description: JSS integration with React
+  package_url: https://www.npmjs.com/react-jss
+  version: 8.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17302/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 21:45:23.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-06 23:16:26.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 21:45:23.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 2.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-17 21:07:44.000000000 Z
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-06 23:16:26.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/client/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-05-06 23:16:26.000000000 Z
+- name: redux-mock-store
+  description: A mock store for testing your redux async action creators and middleware
+  package_url: https://www.npmjs.com/redux-mock-store
+  version: 1.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16721/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Alex Kwiatkowski
+  last_updated_on: 2019-04-18 01:06:10.000000000 Z
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-23 18:28:10.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: examples/twilio_sms/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-04-04 17:30:25.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise
+  version: 4.2.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2018-05-04 12:35:18.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 10.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-04-12 20:20:11.000000000 Z
+- name: solc
+  description: Solidity compiler
+  package_url: https://www.npmjs.com/solc
+  version: 0.4.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17248/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-25 04:51:10.000000000 Z
+- name: truffle-contract
+  description: A better contract abstraction for Ethereum
+  package_url: https://www.npmjs.com/truffle-contract
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18163/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: examples/twilio_sms/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2018-06-26 12:37:07.000000000 Z
+- name: truffle-hdwallet-provider
+  description: HD Wallet-enabled Web3 provider
+  package_url: https://www.npmjs.com/truffle-hdwallet-provider
+  version: 1.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17771/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: evm/box/package.json
+  last_updated_by: Thomas Hodges
+  last_updated_on: 2019-05-19 01:38:12.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 23.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: NavyAdmiral
+  last_updated_on: 2019-05-27 19:28:46.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: NavyAdmiral
+  last_updated_on: 2019-05-27 19:28:46.000000000 Z
+- name: ts-node-dev
+  description: Compiles your TS app and restarts when files are modified
+  package_url: https://www.npmjs.com/ts-node-dev
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17644/default_2b5fe3dc5bfc4e83a84162459ff612ac6febd61a.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: NavyAdmiral
+  last_updated_on: 2019-05-27 19:28:46.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 20:54:31.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: operator_ui/package.json
+  last_updated_by: Steve Ellis
+  last_updated_on: 2019-03-22 21:45:23.000000000 Z
+- name: web3
+  description: Ethereum JavaScript API
+  package_url: https://www.npmjs.com/web3
+  version: 0.20.6
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16369/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/yarn.lock
+  detection_source: examples/echo_server/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-05-19 23:01:34.000000000 Z
+  vulnerabilities:
+  - name: Insecure Credential Storage in web3
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-27v7-qhfv-rqq8
+    detected_date: Aug 22
+    severity: low
+    first_patched: 
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: John Barker
+  last_updated_on: 2019-05-02 23:20:50.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 12.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/Wladoo/chainlink/blob/develop/explorer/client/yarn.lock
+  detection_source: explorer/package.json
+  last_updated_by: Dimitri Roche
+  last_updated_on: 2019-04-23 18:28:10.000000000 Z

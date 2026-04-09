@@ -19,7 +19,7 @@
     "@babel/register": "^7.0.0",
     "react-time-ago": "^3.0.3",
     "prop-types": "^15.6.2",
-    "lodash": "^4.17.0",
+    "lodash": "^4.18.1",
     "bignumber.js": "^8.0.1",
     "numeral": "^2.0.6",
     "change-case": "^3.0.2",
